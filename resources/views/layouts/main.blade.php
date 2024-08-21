@@ -15,7 +15,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased bg-gray-300 max-w-[430px] mx-auto">
+<body class="poppins-bold antialiased bg-gray-300 max-w-[430px] mx-auto">
     <div class="bg-gradient-to-b from-light-cream to-light-gray  text-black">
         @yield('section')
         <div class="min-h-screen flex flex-col">

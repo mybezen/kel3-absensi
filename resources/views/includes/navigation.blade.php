@@ -33,7 +33,7 @@
         <div :class="{ 'block': open, 'hidden': !open }" class="hidden">
             <div class="pt-2 pb-3 space-y-1">
                 <x-responsive-nav-link :href="route('some-page-route')" :active="request()->routeIs('some-page-route')">
-                    {{ __('go to some page') }}
+                    {{ __('go to') }}
                 </x-responsive-nav-link>
             </div>
         </div>
