@@ -15,7 +15,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased bg-gray-300 max-w-[450px] mx-auto">
+<body class="font-sans antialiased bg-gray-300 max-w-[450px] max-h-[932px] mx-auto">
     <div class="bg-gray-50 text-black">
         @yield('section')
         <div class="min-h-screen flex flex-col">
