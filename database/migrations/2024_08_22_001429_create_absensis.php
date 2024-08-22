@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('presences', function (Blueprint $table) {
+        Schema::create('absensis', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->foreignId('id_user')->constrained('pegawais');
+            $table->timestamp('tanggal_masuk');
+            $table->timestamp('tanggal_keluar')->nullable();
+            $table->time('jam_masuk');
+            $table->time('jam_keluar')->nullable();
             $table->timestamps();
-            $table->dateTime('jam_masuk');
-            $table->dateTime('jam_keluar');
-            $table->date('tanggal_absen');
-            $table->integer('no_presence');
         });
     }
 
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('presences');
+        Schema::dropIfExists('absensis');
     }
 };
