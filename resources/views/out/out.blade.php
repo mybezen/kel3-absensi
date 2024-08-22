@@ -19,21 +19,19 @@
                 <p class=" poppins-semibold text-[#686D57]">Karyawan</p>
                 <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mt-3 poppins-bold">Aktivitas</button>
             </div>
-            <a href="/logs">
-                <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mb-5 poppins-bold">Presensi Masuk</button>
+            <a href="/logous">
+                <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mb-5 poppins-bold">Presensi Keluar</button>
             </a>
             <div class="mt-4 grid grid-cols-3 gap-4 mb-5 poppins-regular">
-                <a href="/report">
                 <div class="text-center rounded-2xl bg-white hover:bg-[#E0E5B6] p-2 border-4 border-[#E0E5B6] ">
                     <!-- Icon Laporan Tugas -->
 
-                        <svg class="w-8 h-8 mx-auto mb-1 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5" />
-                        </svg>
+                    <svg class="w-8 h-8 mx-auto mb-1 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5" />
+                      </svg>
 
-                        <p class="text-sm mt-3 poppins-semibold text-[#686D57]">Laporan Tugas</p>
-                    </div>
-                </a>
+                    <p class="text-sm mt-3 poppins-semibold text-[#686D57]">Laporan Tugas</p>
+                </div>
                 <div class="text-center rounded-2xl bg-white hover:bg-[#E0E5B6] p-2 border-4 border-[#E0E5B6]">
                     <!-- Icon Jadwal -->
                     <svg class="w-8 h-8 mx-auto mb-1 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

@@ -1,8 +1,15 @@
 @extends('layouts.main')
 
+@section('splashscreen')
+    @include('includes.splash')
+@endsection
+
+
 @section('section')
 
-<div class="min-h-screen container p-6 bg-gradient-to-b from-[#FEFAE0] to-[#989686]">
+
+
+<div class="min-h-screen container p-6 bg-[#F9DBBA]">
 <div class="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
     <h4 class="block text-4xl antialiased leading-snug tracking-normal text-[#686D57] poppins-bold">
       Selamat
@@ -31,7 +38,7 @@
           Password
         </h6>
         <div class="bg-[#E0E5B6] relative h-11 rounded-2xl w-full min-w-[200px]">
-          <input type="password" placeholder="********"
+          <input type="password" required placeholder="********"
             class="bg-[#E0E5B6] peer h-full w-full rounded-2xl border border-[#686D57] border-t-transparent !border-t-[#686D57] bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#686D57] placeholder-shown:border-t-[#686D57] focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
           <label
             class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
@@ -71,7 +78,7 @@
       <div class="my-[9rem]">
           <p class="block mt-4 poppins-semibold text-base antialiased font-normal leading-relaxed text-left text-[#686D57]">
               Belum punya akun ?
-              <a href="/register" class="font-medium text-[#E0E5B6]">
+              <a href="/register" class="poppins-bold text-[#33361C]">
                 Register
             </a>
         </p>
