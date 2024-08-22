@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>ONTIME</title>
+    <title>Bootcamp SMK 46</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -15,18 +15,18 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="poppins-bold antialiased bg-gray-300 max-w-[430px] mx-auto">
-    <div class="bg-gradient-to-b from-light-cream to-light-gray  text-black">
+<body class="font-sans antialiased bg-gray-300 max-w-[450px] mx-auto">
+    <div class="bg-gray-50 text-black">
         @yield('section')
         <div class="min-h-screen flex flex-col">
-
             {{-- @include('includes.navigation') --}}
 
             <main class="w-full px-6 mt-6">
-
             </main>
 
-
+            {{-- <footer class="py-6 mt-auto bg-white text-center text-sm text-black">
+                <p>your footer here</p>
+            </footer> --}}
         </div>
     </div>
 </body>
