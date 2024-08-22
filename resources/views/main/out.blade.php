@@ -16,8 +16,8 @@
                 <p class=" poppins-regular text-[#686D57]">Karyawan</p>
                 <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mt-3">Aktivitas</button>
             </div>
-            <a href="/logs">
-                <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mb-5">Presensi Masuk</button>
+            <a href="/logous">
+                <button class="bg-[#E0E5B6] w-full text-gray-800 py-2 rounded-xl mb-5">Presensi Keluar</button>
             </a>
             <div class="grid grid-cols-3 gap-4 mb-5 poppins-regular">
                 <div class="text-center">

@@ -18,3 +18,13 @@ Route::get('/register', function () {
 Route::get('/logs', function () {
     return view('main.presencesuccess');
 })->name('presences-route');
+
+
+Route::get('/logous', function () {
+    return view('main.offpresence');
+})->name('offpresence-route');
+
+
+Route::get('/homi', function () {
+    return view('main.out');
+})->name('out-route');

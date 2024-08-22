@@ -4,14 +4,14 @@
 
 <div class="min-h-screen container p-6 bg-gradient-to-b from-[#FEFAE0] to-[#989686]">
 <div class="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
-    <h4 class="block text-4xl antialiased leading-snug tracking-normal text-black poppins-bold">
+    <h4 class="block text-4xl antialiased leading-snug tracking-normal text-[#686D57] poppins-bold">
       Selamat
     </h4>
-    <p class="block mt-1 text-4xl antialiased leading-relaxed text-black poppins-semibold">
+    <p class="block mt-1 text-4xl antialiased leading-relaxed text-[#686D57] poppins-semibold">
       Datang Di
     </p>
-    <div class="w-[8rem] flex left-6">
-        <img src="{{ asset('images/Express.png') }}" alt="">
+    <div class="flex ">
+        <img class="w-[8rem]" src="{{ asset('images/Express.png') }}" alt="">
     </div>
     <form class="max-w-screen-lg mt-8 mb-2 w-80 sm:w-96">
       <div class="flex flex-col gap-6 mb-1">

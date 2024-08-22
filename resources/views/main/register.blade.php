@@ -3,7 +3,7 @@
 @section('section')
 <div class="min-h-screen container p-6 bg-gradient-to-b from-[#FEFAE0] to-[#989686]">
 <div class="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
-    <h4 class="block text-4xl antialiased leading-snug tracking-normal text-black poppins-bold">
+    <h4 class="block text-4xl antialiased leading-snug tracking-normal text-[#686D57] poppins-bold">
       Selamat
     </h4>
     <p class="block mt-1 poppins-semibold  antialiased  leading-relaxed text-[#686D57] text-4xl">
@@ -65,10 +65,10 @@
         </div>
       </div>
       <div class="inline-flex items-center mt-5">
-        <label class=" rounded-2xl relative -ml-2.5 flex cursor-pointer items-center rounded-full p-3" htmlFor="remember">
+        <label class=" rounded-2xl relative -ml-2.5 flex cursor-pointer items-center p-3" htmlFor="remember">
           <input type="checkbox"
             class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-2xl border transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-[#E0E5B6] before:opacity-0 before:transition-opacity checked:border-[#E0E5B6] checked:bg-[#E0E5B6] checked:before:bg-[#E0E5B6] hover:before:opacity-10"
-            id="remember" />
+            id="remember" required />
           <span
             class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"
