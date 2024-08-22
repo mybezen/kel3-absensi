@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('section')
-<div class="container p-6 bg-gradient-to-b from-[#FEFAE0] to-[#989686]">
+<div class="min-h-screen container p-6 bg-gradient-to-b from-[#FEFAE0] to-[#989686]">
 <div class="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
-    <h4 class="block poppins-bold text-4xl antialiased leading-snug tracking-normal text-black">
+    <h4 class="block text-4xl antialiased leading-snug tracking-normal text-black poppins-bold">
       Selamat
     </h4>
     <p class="block mt-1 poppins-semibold  antialiased  leading-relaxed text-[#686D57] text-4xl">
@@ -64,7 +64,7 @@
             class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-[#686D57] peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-[#686D57] peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
         </div>
       </div>
-      <div class="mt-5 inline-flex items-center">
+      <div class="inline-flex items-center mt-5">
         <label class=" rounded-2xl relative -ml-2.5 flex cursor-pointer items-center rounded-full p-3" htmlFor="remember">
           <input type="checkbox"
             class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-2xl border transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-[#E0E5B6] before:opacity-0 before:transition-opacity checked:border-[#E0E5B6] checked:bg-[#E0E5B6] checked:before:bg-[#E0E5B6] hover:before:opacity-10"
@@ -88,11 +88,15 @@
           </p>
         </label>
       </div>
-      <button
-        class="mt-6 block w-6/12 select-none rounded-2xl bg-[#E0E5B6] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-        type="button">
-        Login
-      </button>
+      <div class="mb-5">
+         <a href="/">
+             <button
+             class="mt-6 block w-6/12 select-none rounded-2xl bg-[#E0E5B6] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+             type="button">
+             Register
+            </button>
+        </a>
+    </div>
     </form>
   </div>
 </div>
