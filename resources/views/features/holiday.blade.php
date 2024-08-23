@@ -2,7 +2,7 @@
 
 @section('section')
 
-<div class="bg-white p-4">
+<div class="bg-white h-full p-8">
     <div class="max-w-md mx-auto">
         <div class="flex items-center justify-between mb-4">
             <button class="">
@@ -63,8 +63,8 @@
             </div>
 
             <!-- Request Button -->
-            <div class="flex justify-center">
-                <button type="submit" class="bg-[#686D57] text-white py-2 px-6 rounded-md">Request</button>
+            <div class="pt-6 pb-12 flex justify-end">
+                <button type="submit" class="bg-[#686D57] hover:bg-[#E0E5B6] text-[#E0E5B6] hover:text-[#686D57] py-2 px-6 rounded-md">Request</button>
             </div>
         </form>
     </div>

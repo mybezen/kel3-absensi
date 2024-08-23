@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('section')
-    <div class="container bg-[#F9DBBA]">
+    <div class="container bg-gradient-to-t from-white to-yellow-100">
 
         <div class="flex flex-col items-center justify-center min-h-screen  ">
             <div>

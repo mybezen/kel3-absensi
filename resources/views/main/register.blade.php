@@ -78,8 +78,11 @@
                 </div>
 
                 <button
-                    class="bg-[#E0E5B6] h-[40px] mt-6 text-[#686D57] hover:text-[#E0E5B6] hover:bg-[#686D57] border-[#686D57] font-sans rounded-2xl border-2 w-4/12 ">
-                    <a href="/logsuc">Daftar</a></button>
+                class="bg-[#E0E5B6] h-[40px] mt-6 text-[#686D57] hover:text-[#E0E5B6] hover:bg-[#686D57] border-[#686D57] font-sans rounded-2xl border-2 w-4/12 ">
+                <a href="/logsuc">
+                Daftar
+                    </a>
+                    </button>
 
                 <p
                     class="mt-4 block text-center text-xs poppins-semibold antialiased  leading-normal text-[#686D57]">

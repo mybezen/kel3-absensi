@@ -34,7 +34,7 @@
                             <div class="mt-2 flex justify-center">
                                 <img src="{{ asset('images/ttd.png') }}" alt="Stamp" class="w-16 h-16">
                             </div>
-                            <p class="text-sm font-semibold text-gray-700 mt-2">Haryanto, S.Pd., M.M.</p>
+                            <p class="text-sm font-semibold text-gray-700 mt-2">(Nama Kepala Sekolah)</p>
                             <p class="text-xs text-gray-500">NIP. 197008261996021001</p>
                         </div>
                     </div>
