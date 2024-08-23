@@ -45,7 +45,7 @@ Route::get('/shift', function () {
 })->name('shift-route');
 
 Route::get('/mess', function () {
-    return view('features.messages');
+    return view('messages.messages');
 })->name('messages-route');
 
 Route::get('/jobmess', function () {
