@@ -15,44 +15,49 @@ Route::get('/register', function () {
 })->name('register-route');
 
 
-Route::get('/logs', function () {
-    return view('main.presencesuccess');
-})->name('presences-route');
-
-
-Route::get('/logous', function () {
-    return view('main.offpresence');
-})->name('offpresence-route');
-
-
-Route::get('/homi', function () {
-    return view('main.out');
-})->name('out-route');
-
 Route::get('/logsuc', function () {
     return view('main.logsuccess');
 })->name('logsucs-route');
 
+
+Route::get('/logs', function () {
+    return view('features.presencesuccess');
+})->name('presences-route');
+
 Route::get('/report', function () {
-    return view('main.reports');
+    return view('features.reports');
 })->name('report-route');
 
 Route::get('/prform', function () {
-    return view('main.presenceform');
+    return view('features.presenceform');
 })->name('prform-route');
 
 Route::get('/plan', function () {
-    return view('main.plan');
+    return view('features.plan');
 })->name('plan-route');
 
 Route::get('/holi', function () {
-    return view('main.holiday');
+    return view('features.holiday');
 })->name('holiday-route');
 
 Route::get('/shift', function () {
-    return view('main.shift');
+    return view('features.shift');
 })->name('shift-route');
 
 Route::get('/mess', function () {
-    return view('main.messages');
+    return view('features.messages');
 })->name('messages-route');
+
+Route::get('/jobmess', function () {
+    return view('messages.job-report');
+})->name('jobmess-route');
+
+Route::get('/contract', function () {
+    return view('features.contract');
+})->name('contract-route');
+
+Route::get('/logsout', function () {
+    return view('out.offpresence');
+})->name('offpresence-route');
+
+

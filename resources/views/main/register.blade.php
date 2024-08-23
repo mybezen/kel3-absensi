@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('section')
-<div class="min-h-screen container p-6 bg-[#F9DBBA]">
+<div class="min-h-screen container p-6 bg-gradient-to-t from-white to-yellow-100">
     <div class="relative items-center flex flex-col text-gray-700 bg-transparent shadow-none rounded-2xl bg-clip-border">
         <h4 class="block text-3xl antialiased leading-snug tracking-normal text-[#686D57] poppins-bold">
             Register Akun
@@ -78,7 +78,7 @@
                 </div>
 
                 <button
-                    class="bg-[#E0E5B6] h-[40px] mt-6 text-[#686D57] border-[#686D57] font-sans rounded-2xl border-2 w-4/12 ">
+                    class="bg-[#E0E5B6] h-[40px] mt-6 text-[#686D57] hover:text-[#E0E5B6] hover:bg-[#686D57] border-[#686D57] font-sans rounded-2xl border-2 w-4/12 ">
                     <a href="/logsuc">Daftar</a></button>
 
                 <p

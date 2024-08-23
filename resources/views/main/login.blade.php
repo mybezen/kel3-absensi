@@ -9,8 +9,8 @@
 
 
 
-<div class="min-h-screen container p-6 bg-[#F9DBBA]">
-<div class="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
+<div class="bg-gradient-to-t from-white to-yellow-100 min-h-screen container p-6 bg-">
+<div class="relative flex flex-col text-[#686D57] bg-transparent shadow-none rounded-xl bg-clip-border">
     <h4 class="block text-4xl antialiased leading-snug tracking-normal text-[#686D57] poppins-bold">
       Selamat
     </h4>
@@ -23,25 +23,25 @@
     <form class="max-w-screen-lg mt-8 mb-2 w-80 sm:w-96">
       <div class="flex flex-col gap-6 mb-1">
         <h6
-          class="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+          class="block -mb-3 text-base antialiased poppins-semibold leading-relaxed tracking-normal text-[#686D57]">
           Username
         </h6>
 
         <div class="bg-[#E0E5B6] relative h-11 rounded-2xl w-full min-w-[200px]">
           <input placeholder="Your username"
-            class="bg-[#E0E5B6] peer h-full w-full rounded-2xl border border-[#686D57] border-t-transparent !border-t-[#686D57] bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#686D57] placeholder-shown:border-t-[#686D57] focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
+            class="bg-[#E0E5B6] peer h-full w-full rounded-2xl border border-[#686D57] border-t-transparent !border-t-[#686D57] bg-transparent px-3 py-3 text-sm poppins-normal text-[#686D57] outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#686D57] placeholder-shown:border-t-[#686D57] focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
           <label
-            class="before:content[' '] after:content[' '] pointer-events-none absolute left- -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
+            class="before:content[' '] after:content[' '] pointer-events-none absolute left- -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] poppins-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
         </div>
         <h6
-          class="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-{}">
+          class="block -mb-3 text-base antialiased poppins-semibold leading-relaxed tracking-normal text-{}">
           Password
         </h6>
         <div class="bg-[#E0E5B6] relative h-11 rounded-2xl w-full min-w-[200px]">
           <input type="password" required placeholder="********"
-            class="bg-[#E0E5B6] peer h-full w-full rounded-2xl border border-[#686D57] border-t-transparent !border-t-[#686D57] bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#686D57] placeholder-shown:border-t-[#686D57] focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
+            class="bg-[#E0E5B6] peer h-full w-full rounded-2xl border border-[#686D57] border-t-transparent !border-t-[#686D57] bg-transparent px-3 py-3 text-sm poppins-normal text-blue-[#686D57] outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-[#686D57] placeholder-shown:border-t-[#686D57] focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
           <label
-            class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
+            class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] poppins-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-[#686D57] before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-[#686D57] after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
         </div>
       </div>
       <div class="inline-flex items-center mt-5">
@@ -59,10 +59,10 @@
             </svg>
           </span>
         </label>
-        <label class="mt-px font-light text-gray-700 cursor-pointer select-none" htmlFor="remember">
-          <p class="flex items-center font-sans text-sm antialiased font-normal leading-normal text-gray-700">
+        <label class="mt-px poppins-light text-[#686D57] cursor-pointer select-none" htmlFor="remember">
+          <p class="flex items-center text-sm antialiased poppins-normal leading-normal text-[#686D57]">
             I agree the
-            <a href="#" class="font-medium transition-colors hover:text-gray-900">
+            <a href="#" class="poppins-medium transition-colors hover:text-gray-900">
               &nbsp;Terms and Conditions
             </a>
           </p>
@@ -70,15 +70,15 @@
       </div>
       <a href="/home">
           <button
-          class="mt-6 block w-6/12 select-none rounded-lg bg-[#E0E5B6] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="mt-6 block w-6/12 select-none rounded-lg bg-[#E0E5B6] py-3 px-6 text-center align-middle text-xs poppins-bold uppercase text-[#686D57] hover:text-[#E0E5B6] hover:bg-[#686D57] shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button">
           Login
         </button>
     </a>
       <div class="my-[9rem]">
-          <p class="block mt-4 poppins-semibold text-base antialiased font-normal leading-relaxed text-left text-[#686D57]">
+          <p class="block mt-4 poppins-semibold text-base antialiased poppins-normal leading-relaxed text-left text-[#686D57]">
               Belum punya akun ?
-              <a href="/register" class="poppins-bold text-[#33361C]">
+              <a href="/register" class="poppins-bold text-[#686D57] hover:text-[#E0E5B6]"">
                 Register
             </a>
         </p>
