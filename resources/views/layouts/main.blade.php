@@ -38,14 +38,16 @@
                 const wait = (delay = 0) => new Promise(resolve => setTimeout(resolve, delay));
 
                 const setVisible = (elementOrSelector, visible) => {
-                    const element = typeof elementOrSelector === 'string' ? document.querySelector(elementOrSelector) : elementOrSelector;
+                    const element = typeof elementOrSelector === 'string' ? document.querySelector(
+                        elementOrSelector) : elementOrSelector;
                     if (element) {
                         element.style.display = visible ? 'block' : 'none';
                     }
                 };
 
                 const setOpacity = (elementOrSelector, opacity) => {
-                    const element = typeof elementOrSelector === 'string' ? document.querySelector(elementOrSelector) : elementOrSelector;
+                    const element = typeof elementOrSelector === 'string' ? document.querySelector(
+                        elementOrSelector) : elementOrSelector;
                     if (element) {
                         element.style.opacity = opacity;
                     }
@@ -56,7 +58,7 @@
 
                 wait(1000).then(() => {
                     setOpacity('#loading', 0); // Fade out loading
-                    wait(500).then(() => { // Wait for opacity transition to finish
+                    wait(325).then(() => { // Wait for opacity transition to finish
                         setVisible('.page', true);
                         setVisible('#loading', false);
                     });
